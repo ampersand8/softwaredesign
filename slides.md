@@ -5,14 +5,14 @@
 
 ## Inhalt
 
-  * Fuer was ist der Software Entwurf?
+  * Für was ist der Software Entwurf?
   * Was ist ein Software Entwurf?
   * Modelle des Entwurfs
   * Methoden des Entwurfs
 
 ---
 
-## Fuer was ist der Software Entwurf?
+## Für was ist der Software Entwurf?
 
   * Vereinfachung durch Strukturen
   * Wiederverwendbarkeit
@@ -24,10 +24,23 @@
 
   * Ziele
     1. Gliederung des Systems in handhabbare Einheiten
-    1. Festlegung der Loesungsstruktur
+    1. Festlegung der Lösungsstruktur
     1. Hierarchische Gliederung
-  * Die Taetigkeit Charakteristiken eines Systems oder einer Komponente zu definieren.
+  * Die Tätigkeit Charakteristiken eines Systems oder einer Komponente zu definieren.
   * Resultat: Architektur
+
+---
+
+## Entwicklungsrichtung
+
+  * <em>top-down</em> - Vom Groben ins Feine.<br>
+    Üblicher Ansatz
+  * <em>bottom-up</em> - Vom Feinen ins Grobe<br>
+    Spezielle Anforderungen bei Implementierung
+  * <em>outside-in</em> - Von aussen gegen Innen<br>
+    Festgelegte Schnittstelle
+  * <em>inside-out</em> - Von Innen gegen Aussen<br>
+    Funktionserweiterung bestehender Systeme
 
 ---
 

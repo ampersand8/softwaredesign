@@ -1,5 +1,5 @@
 ## Software-Engineering Entwurf
-### by Simon Peter
+#### by Simon Peter
 
 ---
 
@@ -7,10 +7,16 @@
 
   * Für was ist der Software Entwurf?
   * Was ist ein Software Entwurf?
-  * Modelle des Entwurfs
+  * Entwicklungsrichtung
   * Methoden des Entwurfs
 
 ---
+
+## Komplexe Software ist frustrierend!
+
+  RAGE ANGRY IMAGE
+
+----
 
 ## Für was ist der Software Entwurf?
 
@@ -33,14 +39,115 @@
 
 ## Entwicklungsrichtung
 
-  * <em>top-down</em> - Vom Groben ins Feine.<br>
+  * <em>top-down</em><br>
     Üblicher Ansatz
-  * <em>bottom-up</em> - Vom Feinen ins Grobe<br>
+  * <em>bottom-up</em><br>
     Spezielle Anforderungen bei Implementierung
-  * <em>outside-in</em> - Von aussen gegen Innen<br>
+  * <em>outside-in</em><br>
     Festgelegte Schnittstelle
-  * <em>inside-out</em> - Von Innen gegen Aussen<br>
+  * <em>inside-out</em><br>
     Funktionserweiterung bestehender Systeme
+
+---
+
+## Aspekte des Architekturentwurfs
+
+  * Modularisierung
+  * Kopplung und Zusammenhalt
+  * Information Hiding
+  * Trennung von Zustaendigkeiten
+  * Hierarchische Gliederung
+
+----
+
+### Modularisierung
+
+  * Ziele
+    * Struktur von Modulen einfach
+    * Implementierung austauschbar
+    * Aenderungen ohne Modifikation von Schnittstellen
+  * Modularten
+    * Funktionale Module
+    * Datenobjektmodule
+    * Datentypmodule
+
+----
+
+### Kopplung und Zusammenhalt
+
+  * Geringe Kopplung
+  * Hoher Zusammenhalt
+  * Bessere Wartbarkeit, Verstaendlicher Code
+
+----
+
+### Information Hiding
+
+  * Need to know
+  * Weniger Missbrauch
+  * Kontrolliertes Datenhandling
+
+Amazon - Jeff Bezos around 2002
+  * All teams will henceforth expose their data and functionality through service interfaces.
+  * Teams must communicate with each other through these interfaces.
+
+> Anyone who doesn't do this will be fired.
+
+----
+
+### Trennung von Zustaendigkeiten
+
+
+
+---
+
+## Architekturmuster
+
+  * Schichtenarchitektur
+  * Pipes und Filter
+  * Model-View-Controller
+  * Microservices
+
+----
+
+### Schichtenarchitektur
+
+  * Leicht verstaendlich
+  * Lose Kopplung
+  * Aufteilung in Subtasks
+  * protokollbasierte Schichten
+  * objektorientierte Schichten
+
+----
+
+### Pipes und Filter
+
+```bash
+ls -al | grep important | awk '{print $2}'
+```
+
+  * Datenfliessband Verarbeitung
+  * Datenformat
+  * Fehlerfall
+
+----
+
+### Model-View-Controller
+
+  * Grafische- und Webanwendungen
+  * Beliebte Frameworks - Spring, Django
+PICTURE OF MVC MODEL
+
+----
+
+### Microservices
+
+  * Vom Monolith zu Microservices
+  * Verteilt
+  * Overengineering Small Apps
+  * Skalieren in Wirklichkeit
+
+IMAGE OF NETFLIX MICROSERVICES CONNECTION GRAPH
 
 ---
 
@@ -57,8 +164,9 @@
   * Portabilitaet
   * Skalierbarkeit
 
-----
+---
 
-### Kompatibilitaet
+## Quellen
 
-Test test 
+https://plus.google.com/+RipRowan/posts/eVeouesvaVX
+Software Engineering, Jochen Ludewig - Horst Lichter

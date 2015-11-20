@@ -2,5 +2,7 @@
     "controls": false,
     "progress": true,
     "history": true,
-    "transition": "default"
+    "transition": "default",
+    "touch": true,
+    "mouseWheel": true
 }

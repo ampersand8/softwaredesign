@@ -154,10 +154,13 @@ ls -al | grep important | awk '{print $2}'
 
 ----
 
-<img src="images/netflix_microservices.png" style="float:right;">
+<img src="images/netflix_microservices.png">
 
 ---
 
+<img src="images/questions.jpg">
+
+---
 
 
 ## Quellen

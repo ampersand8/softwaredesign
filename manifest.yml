@@ -1,0 +1,4 @@
+---
+applications:
+  - name: softwaredesign
+    command: ./start.sh

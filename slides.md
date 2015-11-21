@@ -34,8 +34,7 @@ Komplexe Software ist frustrierend!
   1. Festlegung der Lösungsstruktur
   1. Hierarchische Gliederung
 * Die Tätigkeit Charakteristiken eines Systems oder einer Komponente zu definieren.
-* Resultat: Architektur
-* Architektur- vs. Softwareentwurf
+* Resultat: Softwarearchitekturbeschreibung
 
 ---
 
